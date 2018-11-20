@@ -17,6 +17,7 @@ namespace GuthubTest
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+            //1
         }
 
         public IConfiguration Configuration { get; }
